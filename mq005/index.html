@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos Sobre Responsividade</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+</head>
+<body>
+    <header>
+        <h1>Meu site com menu hamburguer</h1>
+        <span id="burg" class="material-symbols-outlined" onclick="menu()">menu</span>        
+        <menu id="itens">
+            <ul>
+                <li><a href="#">OPÇÃO 1</a></li>
+                <li><a href="#">OPÇÃO 2</a></li>
+                <li><a href="#">OPÇÃO 3</a></li>
+                <li><a href="#">OPÇÃO 4</a></li>
+                <li><a href="#">OPÇÃO 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At nisi ratione ipsam rerum sapiente nemo repellendus tenetur nihil. Explicabo cupiditate iusto commodi incidunt consectetur doloribus, deserunt non eos harum qui velit quas aut fuga magnam ipsum aperiam exercitationem nostrum necessitatibus et provident magni maiores ad, libero modi! Blanditiis assumenda explicabo similique voluptatum aliquam, vitae quidem, libero provident distinctio iure odit deserunt ea voluptate consequatur quibusdam? Autem, suscipit voluptatum quod repudiandae blanditiis consectetur eligendi voluptas ipsa perferendis quis velit ea veniam sunt laborum facere, tempora dolorem id deleniti nisi consequuntur doloremque mollitia in ad possimus? Perspiciatis cumque accusantium tenetur modi reprehenderit.</p>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At nisi ratione ipsam rerum sapiente nemo repellendus tenetur nihil. Explicabo cupiditate iusto commodi incidunt consectetur doloribus, deserunt non eos harum qui velit quas aut fuga magnam ipsum aperiam exercitationem nostrum necessitatibus et provident magni maiores ad, libero modi! Blanditiis assumenda explicabo similique voluptatum aliquam, vitae quidem, libero provident distinctio iure odit deserunt ea voluptate consequatur quibusdam? Autem, suscipit voluptatum quod repudiandae blanditiis consectetur eligendi voluptas ipsa perferendis quis velit ea veniam sunt laborum facere, tempora dolorem id deleniti nisi consequuntur doloremque mollitia in ad possimus? Perspiciatis cumque accusantium tenetur modi reprehenderit.</p>
+        </article>
+    </main>
+
+
+
+    <script>
+        function menu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
